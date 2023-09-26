@@ -7,7 +7,7 @@ sudo apt update
 sudo apt -y upgrade
 
 # Get additional apt packages
-echo ">> Installing additional apt packages..."
+echo ">> Installing apt packages..."
 
 sudo apt update
 sudo apt -y install \

@@ -6,7 +6,7 @@ echo ">> Updating Fedora..."
 sudo dnf upgrade
 
 # Install programs
-echo ">> Installing packages..."
+echo ">> Installing dnf packages..."
 
 sudo dnf install --assumeyes \
 autojump \

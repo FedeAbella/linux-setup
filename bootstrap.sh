@@ -3,18 +3,10 @@
 
 # Define vars
 THIS_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
-OS_ID=$(grep ^ID= /etc/os-release | cut -d "=" -f2)
-
-export THIS_DIR
-export OS_ID
-
-# Upgrade system and install packages, depending on distro
-if [ "$OS_ID" = "fedora" ]; then
-	/bin/bash "$THIS_DIR"/fedora/packages.sh
-fi
 
 # Bootstrap steps
 STEPS=(
+    "packages" # Update system and install packages
     "dirs" # Create directories
     "nodejs" # Install nvm, nodejs, npm
     "nerd-fonts" # Install nerd fonts
@@ -29,5 +21,5 @@ STEPS=(
 )
 
 for step in "${STEPS[@]}"; do
-    /bin/bash "$THIS_DIR"/"$step".sh
+    /bin/bash "$THIS_DIR"/steps/"$step".sh
 done
