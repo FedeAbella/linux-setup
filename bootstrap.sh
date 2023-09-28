@@ -19,6 +19,7 @@ STEPS=(
     "gedit" # Configure gedit
     "ranger" # Configure ranger
     "flatpak" # Configure flatpak and install flatpak apps
+    "oh-my-zsh" # Install Oh-My-Zsh and change shell to zsh
 )
 
 # Run step subscripts
