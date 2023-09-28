@@ -15,6 +15,7 @@ dconf-editor \
 deluge \
 fd-find \
 flameshot \
+flatpak \
 gimp \
 gnome-browser-connector \
 gnome-tweaks \
@@ -22,6 +23,7 @@ inkscape \
 menulibre \
 ranger \
 ruby-devel \
+sayonara \
 steam \
 tilix \
 tldr \

@@ -16,6 +16,8 @@ celluloid \
 dconf-editor \
 deluge \
 fd-find \
+flameshot \
+flatpak \
 gimp \
 gnome-shell-extensions \
 gnome-tweaks \
