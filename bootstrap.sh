@@ -18,8 +18,10 @@ STEPS=(
     "vscode" # Install vscode
     "gedit" # Configure gedit
     "ranger" # Configure ranger
+    "flatpak" # Configure flatpak and install flatpak apps
 )
 
+# Run step subscripts
 for step in "${STEPS[@]}"; do
     /bin/bash "$THIS_DIR"/steps/"$step".sh
 done
