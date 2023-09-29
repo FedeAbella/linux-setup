@@ -25,6 +25,7 @@ gnome-tweaks \
 inkscape \
 menulibre \
 nala \
+python3-pip \
 ranger \
 ruby-full \
 sayonara \

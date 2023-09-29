@@ -22,6 +22,7 @@ gnome-browser-connector \
 gnome-tweaks \
 inkscape \
 menulibre \
+python3-pip \
 ranger \
 ruby-devel \
 sayonara \

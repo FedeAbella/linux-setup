@@ -12,6 +12,7 @@ STEPS=(
     "nerd-fonts" # Install nerd fonts
     "colorls" # Install colorls
     "gnome" # Configure GNOME
+    "gnome-extensions" # Install GNOME extensions
     "icons" # Install icons
     "vim" # Customize vim
     "autostart" # Set autostart files
@@ -20,6 +21,7 @@ STEPS=(
     "ranger" # Configure ranger
     "flatpak" # Configure flatpak and install flatpak apps
     "oh-my-zsh" # Install Oh-My-Zsh and change shell to zsh
+    "dotfiles" # Clone personal dotfiles repo and make links
 )
 
 # Run step subscripts
