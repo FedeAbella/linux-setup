@@ -1,6 +1,7 @@
 #!/bin/bash
 
 EXTENSIONS=(
+    "user-theme@gnome-shell-extensions.gcampax.github.com" # User themes
     "appindicatorsupport@rgcjonas.gmail.com" # App Indicator support
     "CoverflowAltTab@palatis.blogspot.com" # Cover Flow Alt Tab
     "dash-to-panel@jderose9.github.com" # Dash to Panel

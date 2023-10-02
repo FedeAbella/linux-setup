@@ -5,6 +5,8 @@ echo ">> Writing into Gnome Tweaks..."
 
 gsettings set org.gnome.desktop.input-sources xkb-options "['altwin:left_meta_win']"
 gsettings set org.gnome.mutter overlay-key 'Super_L'
+gsettings set org.gnome.shell.extensions.user-theme name "Yaru-purple-dark"
+gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
 
 # Set Gnome Settings
 echo ">> Writing into Gnome Settings..."
