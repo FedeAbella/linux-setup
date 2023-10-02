@@ -3,7 +3,7 @@
 # Upgrade system
 echo ">> Updating Fedora..."
 
-sudo dnf upgrade
+sudo dnf upgrade --assumeyes
 
 # Install programs
 echo ">> Installing dnf packages..."
@@ -31,7 +31,7 @@ tilix \
 tldr \
 unzip \
 vim-X11 \
-vim-common
+vim-common \
 yt-dlp \
 zsh \
 zsh-syntax-highlighting
