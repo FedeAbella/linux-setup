@@ -36,4 +36,4 @@ yt-dlp \
 zsh \
 zsh-syntax-highlighting
 
-sudo dnf group install "C Development Tools and Libraries"
+sudo dnf group install "C Development Tools and Libraries" --assumeyes

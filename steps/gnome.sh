@@ -10,7 +10,6 @@ gsettings set org.gnome.mutter overlay-key 'Super_L'
 echo ">> Writing into Gnome Settings..."
 
 gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
-gsettings set org.gnome.shell.extensions.ding show-home "false"
 gsettings set org.gnome.desktop.interface enable-hot-corners "false"
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
