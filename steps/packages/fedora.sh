@@ -31,6 +31,7 @@ steam \
 tilix \
 tldr \
 unzip \
+util-linux-user \
 vim-X11 \
 vim-common \
 yt-dlp \
