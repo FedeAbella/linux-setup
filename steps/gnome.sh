@@ -13,6 +13,8 @@ gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
 gsettings set org.gnome.desktop.interface enable-hot-corners "false"
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
 gsettings set org.gnome.desktop.wm.keybindings switch-group "['<Super>Tab']"
 gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>f']" # File Manager
 gsettings set org.gnome.settings-daemon.plugins.media-keys email "['<Super>m']" # Mail client
