@@ -3,7 +3,7 @@
 ## Configure Ranger
 echo ">> Configuring ranger..."
 
-ranger --copy-config=\(rc\)
+ranger --copy-config=rc
 mkdir -p "$HOME"/.config/ranger/colorschemes
 
 git clone https://github.com/dracula/ranger.git "$HOME"/Downloads/dracula-ranger

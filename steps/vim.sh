@@ -13,7 +13,7 @@ git clone https://github.com/jeffkreeftmeijer/vim-numbertoggle.git "$HOME"/.vim/
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 if [ "$OS_ID" = "fedora" ]; then
-    alias vim=vimx
+    vimx -c 'PlugInstall' -c 'qa!'
+else 
+    vim -c 'PlugInstall' -c 'qa!'
 fi
-
-vim -c 'PlugInstall' -c 'qa!'

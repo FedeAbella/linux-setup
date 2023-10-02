@@ -16,6 +16,7 @@ deluge \
 fd-find \
 flameshot \
 flatpak \
+gedit \
 gh \
 gimp \
 gnome-browser-connector \

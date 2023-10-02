@@ -16,5 +16,5 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 # Install flatpak apps
 for app in "${FLATPAK_APPS[@]}"; do
-    flatpak install flathub "$app"
+    flatpak install flathub "$app" --assumeyes
 done
