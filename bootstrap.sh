@@ -2,10 +2,10 @@
 # Bootstrap a new distro installation with preferred configs
 
 # Define vars
-THIS_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
+this_dir=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
 
-# Bootstrap steps
-STEPS=(
+# Bootstrap bootstrap_steps
+bootstrap_steps=(
     "packages" # Update system and install packages
     "dirs" # Create directories
     "nodejs" # Install nvm, nodejs, npm
@@ -25,6 +25,6 @@ STEPS=(
 )
 
 # Run step subscripts
-for step in "${STEPS[@]}"; do
-    /bin/bash "$THIS_DIR"/steps/"$step".sh
+for step in "${bootstrap_steps[@]}"; do
+    /bin/bash "$this_dir"/steps/"$step".sh
 done

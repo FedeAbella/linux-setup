@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXTENSIONS=(
+extensions=(
     "user-theme@gnome-shell-extensions.gcampax.github.com" # User themes
     "appindicatorsupport@rgcjonas.gmail.com" # App Indicator support
     "CoverflowAltTab@palatis.blogspot.com" # Cover Flow Alt Tab
@@ -13,13 +13,13 @@ EXTENSIONS=(
     "vertical-workspaces@G-dH.github.com" # Vertical workspaces
 )
 
-# Install GNOME Extensions CLI tool
+# Install GNOME extensions CLI tool
 echo ">> Installing gnome-extensions-cli..."
 pip3 install --upgrade gnome-extensions-cli
 
 # Install extensions
 echo ">> Installing gnome extensions..."
-for ext in "${EXTENSIONS[@]}"; do
+for ext in "${extensions[@]}"; do
     gext install "$ext"
     gext enable "$ext"
 done

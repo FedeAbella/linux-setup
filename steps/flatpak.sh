@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FLATPAK_APPS=(
+flatpak_apps=(
     com.mattjakeman.ExtensionManager # GNOME extensions manager
     org.telegram.desktop # Telegram
     io.github.mimbrero.WhatsAppDesktop # WhatsApp
@@ -15,6 +15,6 @@ FLATPAK_APPS=(
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install flatpak apps
-for app in "${FLATPAK_APPS[@]}"; do
+for app in "${flatpak_apps[@]}"; do
     flatpak install flathub "$app" --assumeyes
 done

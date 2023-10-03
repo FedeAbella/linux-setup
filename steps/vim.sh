@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OS_ID=$(grep ^ID= /etc/os-release | cut -d "=" -f2)
+os_id=$(grep ^ID= /etc/os-release | cut -d "=" -f2)
 
 # Customize vim
 echo ">> Customizing vim..."
@@ -12,7 +12,7 @@ git clone https://github.com/dracula/vim.git "$HOME"/.vim/pack/themes/start/drac
 git clone https://github.com/jeffkreeftmeijer/vim-numbertoggle.git "$HOME"/.vim/pack/plugins/start/vim-numbertoggle
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-if [ "$OS_ID" = "fedora" ]; then
+if [ "$os_id" = "fedora" ]; then
     vimx -c 'PlugInstall' -c 'qa!'
 else 
     vim -c 'PlugInstall' -c 'qa!'
