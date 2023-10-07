@@ -7,6 +7,7 @@ this_dir=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
 # Bootstrap bootstrap_steps
 bootstrap_steps=(
     "packages" # Update system and install packages
+    "codecs" # Install multimedia codecs
     "dirs" # Create directories
     "nodejs" # Install nvm, nodejs, npm
     "nerd-fonts" # Install nerd fonts
