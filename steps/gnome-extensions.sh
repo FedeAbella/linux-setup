@@ -7,7 +7,7 @@ extensions=(
     "dash-to-panel@jderose9.github.com" # Dash to Panel
     "unredirect@vaina.lt" # Disable unredirect fullscreen
     "no-overview@fthx" # No overview on startup
-    "no-overview@fthx" # Quarter windows
+    "quarterwindows@troyready.com" # Quarter windows
     "task-widget@juozasmiskinis.gitlab.io" # Tasks in notification panel
     "unblank@sun.wxg@gmail.com" # Unblank lock screen
     "vertical-workspaces@G-dH.github.com" # Vertical workspaces
