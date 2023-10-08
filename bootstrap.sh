@@ -12,14 +12,13 @@ bootstrap_steps=(
     "nodejs" # Install nvm, nodejs, npm
     "nerd-fonts" # Install nerd fonts
     "colorls" # Install colorls
-    "gnome" # Configure GNOME
     "gnome-extensions" # Install GNOME extensions
+    "gnome" # Configure GNOME
     "icons" # Install icons
     "vim" # Customize vim
     "autostart" # Set autostart files
     "vscode" # Install vscode
     "gedit" # Configure gedit
-    "ranger" # Configure ranger
     "flatpak" # Configure flatpak and install flatpak apps
     "dotfiles" # Clone personal dotfiles repo and make links
     "oh-my-zsh" # Install Oh-My-Zsh and change shell to zsh
