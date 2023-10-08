@@ -22,6 +22,7 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>f']" #
 gsettings set org.gnome.settings-daemon.plugins.media-keys email "['<Super>m']" # Mail client
 gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Super>b']" # Web Browser
 gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>v']" # Notification tray
+gsettings set org.gnome.shell.keybindings show-screenshot-ui "[]"
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>c']" # Close window
 gsettings set org.gnome.desktop.wm.keybindings lower "['<Shift><Super>b']" # Hide window behind all
 gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d']" # Show/Hide desktop
