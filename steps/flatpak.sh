@@ -1,7 +1,6 @@
 #!/bin/bash
 
 flatpak_apps=(
-    com.mattjakeman.ExtensionManager # GNOME extensions manager
     org.telegram.desktop # Telegram
     io.github.mimbrero.WhatsAppDesktop # WhatsApp
     md.obsidian.Obsidian # Obsidian
