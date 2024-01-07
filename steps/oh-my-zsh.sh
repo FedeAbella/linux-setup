@@ -2,10 +2,7 @@
 
 ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 
-# Change default shell
-chsh -s "$(which zsh)"
-
-# Install Oh-My-Zsh
+# Install Oh-My-Zsh (Do NOT accept to change shell, or script ends)
 # https://ohmyz.sh/#install
 echo ">> Installing Oh-My-Zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
