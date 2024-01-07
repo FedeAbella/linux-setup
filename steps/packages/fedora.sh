@@ -28,7 +28,6 @@ ranger \
 ruby-devel \
 sayonara \
 steam \
-tilix \
 tldr \
 unzip \
 util-linux-user \

@@ -30,7 +30,6 @@ ranger \
 ruby-full \
 sayonara \
 steam \
-tilix \
 tldr \
 unzip \
 vim \
