@@ -17,9 +17,9 @@ bootstrap_steps=(
     "autostart" # Set autostart files
     "vscode" # Install vscode
     "flatpak" # Configure flatpak and install flatpak apps
-    "dotfiles" # Clone personal dotfiles repo and make links
     "desktop" # Run desktop environment specific configs
     "oh-my-zsh" # Install Oh-My-Zsh and change shell to zsh
+    "dotfiles" # Clone personal dotfiles repo and make links
 )
 
 # Run step subscripts
