@@ -4,18 +4,19 @@
 flatpak install flathub com.mattjakeman.ExtensionManager --assumeyes
 
 extensions=(
-    "user-theme@gnome-shell-extensions.gcampax.github.com" # User themes
-    # "appindicatorsupport@rgcjonas.gmail.com" # App Indicator support
     "blur-my-shell@aunetx" # Blur my shell
     "CoverflowAltTab@palatis.blogspot.com" # Cover Flow Alt Tab
     "dash-to-panel@jderose9.github.com" # Dash to Panel
-    "unredirect@vaina.lt" # Disable unredirect fullscreen
+    "openweather-extension@penguin-teal.github.io" # OpenWeather refined
     "suppress-startup-animation@icedman.github.com" # No overview on startup
+    "unblank@sun.wxg@gmail.com" # Unblank lock screen
+    "unredirect@vaina.lt" # Disable unredirect fullscreen
+    "user-theme@gnome-shell-extensions.gcampax.github.com" # User themes
+    "Vitals@CodeCoding.com" # Vitals
+    # "appindicatorsupport@rgcjonas.gmail.com" # App Indicator support
     # "quarterwindows@troyready.com" # Quarter windows
     # "task-widget@juozasmiskinis.gitlab.io" # Tasks in notification panel
-    "unblank@sun.wxg@gmail.com" # Unblank lock screen
     # "vertical-workspaces@G-dH.github.com" # Vertical workspaces
-    "Vitals@CodeCoding.com" # Vitals
 )
 
 # Install GNOME extensions CLI tool
