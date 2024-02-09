@@ -3,7 +3,7 @@
 flatpak_apps=(
     org.telegram.desktop # Telegram
     io.github.mimbrero.WhatsAppDesktop # WhatsApp
-    md.obsidian.Obsidian # Obsidian
+    #md.obsidian.Obsidian # Obsidian
     com.bitwarden.desktop # Bitwarden
     io.github.aandrew_me.ytdn # Youtube Downloader
     com.discordapp.Discord # Discord

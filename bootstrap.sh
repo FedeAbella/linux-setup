@@ -11,7 +11,7 @@ bootstrap_steps=(
     "dirs" # Create directories
     "nodejs" # Install nvm, nodejs, npm
     "nerd-fonts" # Install nerd fonts
-    "colorls" # Install colorls
+    #"colorls" # Install colorls
     "icons" # Install icons
     "vim" # Customize vim
     "autostart" # Set autostart files
