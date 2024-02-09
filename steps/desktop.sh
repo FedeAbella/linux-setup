@@ -8,6 +8,7 @@ gnome_steps=(
     "gnome-extensions" # Install GNOME extensions
     "gnome-settings" # Configure GNOME
     "gedit" # Configure gedit
+    "gnome-terminal" # Install catppuccin color for gnome-terminal
 )
 
 if [[ "$XDG_CURRENT_DESKTOP" =~ $gnome_regex ]]; then

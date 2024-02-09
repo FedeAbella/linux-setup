@@ -13,11 +13,13 @@ bootstrap_steps=(
     "nerd-fonts" # Install nerd fonts
     #"colorls" # Install colorls
     "icons" # Install icons
+    "tmux" # Install tmux plugin manager
     "vim" # Customize vim
     "autostart" # Set autostart files
     "vscode" # Install vscode
     "flatpak" # Configure flatpak and install flatpak apps
     "desktop" # Run desktop environment specific configs
+    "zsh" # Add catppuccin theme for zsh syntax highlighting
     "oh-my-zsh" # Install Oh-My-Zsh and change shell to zsh
     "dotfiles" # Clone personal dotfiles repo and make links
 )
