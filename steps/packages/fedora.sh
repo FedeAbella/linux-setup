@@ -22,6 +22,7 @@ gimp \
 gnome-browser-connector \
 gnome-tweaks \
 inkscape \
+lsd \
 menulibre \
 python3-pip \
 ranger \
@@ -29,6 +30,7 @@ ruby-devel \
 sayonara \
 steam \
 tldr \
+tmux \
 unzip \
 util-linux-user \
 vim-X11 \

@@ -23,6 +23,7 @@ gnome-shell-extensions \
 gnome-software-plugin-flatpak \
 gnome-tweaks \
 inkscape \
+lsd \
 menulibre \
 nala \
 python3-pip \
@@ -31,6 +32,7 @@ ruby-full \
 sayonara \
 steam \
 tldr \
+tmux \
 unzip \
 vim \
 vim-gui-common \
