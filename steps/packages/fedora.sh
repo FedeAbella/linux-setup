@@ -9,6 +9,7 @@ sudo dnf upgrade --assumeyes
 echo ">> Installing dnf packages..."
 
 sudo dnf install --assumeyes \
+alacritty \
 autojump \
 celluloid \
 dconf-editor \

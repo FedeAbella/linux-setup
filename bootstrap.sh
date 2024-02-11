@@ -19,6 +19,7 @@ bootstrap_steps=(
     "vscode" # Install vscode
     "flatpak" # Configure flatpak and install flatpak apps
     "desktop" # Run desktop environment specific configs
+    "alacritty" # Get catppuccin theme for alacritty
     "zsh" # Add catppuccin theme for zsh syntax highlighting
     "oh-my-zsh" # Install Oh-My-Zsh and change shell to zsh
     "dotfiles" # Clone personal dotfiles repo and make links

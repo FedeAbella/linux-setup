@@ -11,6 +11,7 @@ echo ">> Installing apt packages..."
 
 sudo apt update
 sudo apt -y install \
+alacritty \
 autojump \
 celluloid \
 dconf-editor \
