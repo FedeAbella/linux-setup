@@ -29,6 +29,7 @@ menulibre \
 nala \
 python3-pip \
 ranger \
+repgrip \
 ruby-full \
 sayonara \
 steam \

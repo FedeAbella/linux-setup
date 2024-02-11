@@ -27,6 +27,7 @@ lsd \
 menulibre \
 python3-pip \
 ranger \
+repgrip \
 ruby-devel \
 sayonara \
 steam \
