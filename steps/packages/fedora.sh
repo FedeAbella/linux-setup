@@ -17,6 +17,7 @@ deluge \
 fd-find \
 flameshot \
 flatpak \
+fzf \
 gedit \
 gh \
 gimp \

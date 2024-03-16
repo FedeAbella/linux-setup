@@ -19,6 +19,7 @@ deluge \
 fd-find \
 flameshot \
 flatpak \
+fzf \
 gimp \
 inkscape \
 lsd \
