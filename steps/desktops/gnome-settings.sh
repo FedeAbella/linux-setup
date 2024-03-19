@@ -28,6 +28,8 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>c']" # Close wind
 gsettings set org.gnome.desktop.wm.keybindings lower "['<Shift><Super>b']" # Hide window behind all
 gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d']" # Show/Hide desktop
 gsettings set org.gnome.desktop.interface icon-theme "Tela-purple-dark" # Use Tela icons
+gsettings set org.gnome.settings-daemon.plugins.media-keys rotate-video-lock-static [] # Disable Super+O default shortcut
+gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>o']" # Overview
 
 # Custom keybindings
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/]"
